@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD8ADE342B48B00400BDA725 /* UpliftMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE332B48B00400BDA725 /* UpliftMeApp.swift */; };
+		CD8ADE362B48B00400BDA725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE352B48B00400BDA725 /* ContentView.swift */; };
+		CD8ADE382B48B00600BDA725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8ADE372B48B00600BDA725 /* Assets.xcassets */; };
+		CD8ADE3C2B48B00600BDA725 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8ADE3B2B48B00600BDA725 /* Preview Assets.xcassets */; };
+		CD8ADE462B48B00700BDA725 /* UpliftMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE452B48B00700BDA725 /* UpliftMeTests.swift */; };
+		CD8ADE502B48B00700BDA725 /* UpliftMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE4F2B48B00700BDA725 /* UpliftMeUITests.swift */; };
+		CD8ADE522B48B00700BDA725 /* UpliftMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE512B48B00700BDA725 /* UpliftMeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD8ADE422B48B00700BDA725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8ADE282B48B00400BDA725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8ADE2F2B48B00400BDA725;
+			remoteInfo = UpliftMe;
+		};
+		CD8ADE4C2B48B00700BDA725 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD8ADE282B48B00400BDA725 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD8ADE2F2B48B00400BDA725;
+			remoteInfo = UpliftMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD8ADE302B48B00400BDA725 /* UpliftMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpliftMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8ADE332B48B00400BDA725 /* UpliftMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpliftMeApp.swift; sourceTree = "<group>"; };
+		CD8ADE352B48B00400BDA725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CD8ADE372B48B00600BDA725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD8ADE392B48B00600BDA725 /* UpliftMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = UpliftMe.entitlements; sourceTree = "<group>"; };
+		CD8ADE3B2B48B00600BDA725 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CD8ADE412B48B00700BDA725 /* UpliftMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpliftMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8ADE452B48B00700BDA725 /* UpliftMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpliftMeTests.swift; sourceTree = "<group>"; };
+		CD8ADE4B2B48B00700BDA725 /* UpliftMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpliftMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD8ADE4F2B48B00700BDA725 /* UpliftMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpliftMeUITests.swift; sourceTree = "<group>"; };
+		CD8ADE512B48B00700BDA725 /* UpliftMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpliftMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD8ADE2D2B48B00400BDA725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8ADE3E2B48B00700BDA725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8ADE482B48B00700BDA725 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD8ADE272B48B00400BDA725 = {
+			isa = PBXGroup;
+			children = (
+				CD8ADE322B48B00400BDA725 /* UpliftMe */,
+				CD8ADE442B48B00700BDA725 /* UpliftMeTests */,
+				CD8ADE4E2B48B00700BDA725 /* UpliftMeUITests */,
+				CD8ADE312B48B00400BDA725 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD8ADE312B48B00400BDA725 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD8ADE302B48B00400BDA725 /* UpliftMe.app */,
+				CD8ADE412B48B00700BDA725 /* UpliftMeTests.xctest */,
+				CD8ADE4B2B48B00700BDA725 /* UpliftMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD8ADE322B48B00400BDA725 /* UpliftMe */ = {
+			isa = PBXGroup;
+			children = (
+				CD8ADE332B48B00400BDA725 /* UpliftMeApp.swift */,
+				CD8ADE352B48B00400BDA725 /* ContentView.swift */,
+				CD8ADE372B48B00600BDA725 /* Assets.xcassets */,
+				CD8ADE392B48B00600BDA725 /* UpliftMe.entitlements */,
+				CD8ADE3A2B48B00600BDA725 /* Preview Content */,
+			);
+			path = UpliftMe;
+			sourceTree = "<group>";
+		};
+		CD8ADE3A2B48B00600BDA725 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CD8ADE3B2B48B00600BDA725 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CD8ADE442B48B00700BDA725 /* UpliftMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8ADE452B48B00700BDA725 /* UpliftMeTests.swift */,
+			);
+			path = UpliftMeTests;
+			sourceTree = "<group>";
+		};
+		CD8ADE4E2B48B00700BDA725 /* UpliftMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD8ADE4F2B48B00700BDA725 /* UpliftMeUITests.swift */,
+				CD8ADE512B48B00700BDA725 /* UpliftMeUITestsLaunchTests.swift */,
+			);
+			path = UpliftMeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD8ADE2F2B48B00400BDA725 /* UpliftMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8ADE552B48B00700BDA725 /* Build configuration list for PBXNativeTarget "UpliftMe" */;
+			buildPhases = (
+				CD8ADE2C2B48B00400BDA725 /* Sources */,
+				CD8ADE2D2B48B00400BDA725 /* Frameworks */,
+				CD8ADE2E2B48B00400BDA725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UpliftMe;
+			productName = UpliftMe;
+			productReference = CD8ADE302B48B00400BDA725 /* UpliftMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD8ADE402B48B00700BDA725 /* UpliftMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8ADE582B48B00700BDA725 /* Build configuration list for PBXNativeTarget "UpliftMeTests" */;
+			buildPhases = (
+				CD8ADE3D2B48B00700BDA725 /* Sources */,
+				CD8ADE3E2B48B00700BDA725 /* Frameworks */,
+				CD8ADE3F2B48B00700BDA725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8ADE432B48B00700BDA725 /* PBXTargetDependency */,
+			);
+			name = UpliftMeTests;
+			productName = UpliftMeTests;
+			productReference = CD8ADE412B48B00700BDA725 /* UpliftMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD8ADE4A2B48B00700BDA725 /* UpliftMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD8ADE5B2B48B00700BDA725 /* Build configuration list for PBXNativeTarget "UpliftMeUITests" */;
+			buildPhases = (
+				CD8ADE472B48B00700BDA725 /* Sources */,
+				CD8ADE482B48B00700BDA725 /* Frameworks */,
+				CD8ADE492B48B00700BDA725 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD8ADE4D2B48B00700BDA725 /* PBXTargetDependency */,
+			);
+			name = UpliftMeUITests;
+			productName = UpliftMeUITests;
+			productReference = CD8ADE4B2B48B00700BDA725 /* UpliftMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD8ADE282B48B00400BDA725 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					CD8ADE2F2B48B00400BDA725 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					CD8ADE402B48B00700BDA725 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CD8ADE2F2B48B00400BDA725;
+					};
+					CD8ADE4A2B48B00700BDA725 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = CD8ADE2F2B48B00400BDA725;
+					};
+				};
+			};
+			buildConfigurationList = CD8ADE2B2B48B00400BDA725 /* Build configuration list for PBXProject "UpliftMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD8ADE272B48B00400BDA725;
+			productRefGroup = CD8ADE312B48B00400BDA725 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD8ADE2F2B48B00400BDA725 /* UpliftMe */,
+				CD8ADE402B48B00700BDA725 /* UpliftMeTests */,
+				CD8ADE4A2B48B00700BDA725 /* UpliftMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD8ADE2E2B48B00400BDA725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8ADE3C2B48B00600BDA725 /* Preview Assets.xcassets in Resources */,
+				CD8ADE382B48B00600BDA725 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8ADE3F2B48B00700BDA725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8ADE492B48B00700BDA725 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD8ADE2C2B48B00400BDA725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8ADE362B48B00400BDA725 /* ContentView.swift in Sources */,
+				CD8ADE342B48B00400BDA725 /* UpliftMeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8ADE3D2B48B00700BDA725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8ADE462B48B00700BDA725 /* UpliftMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD8ADE472B48B00700BDA725 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD8ADE522B48B00700BDA725 /* UpliftMeUITestsLaunchTests.swift in Sources */,
+				CD8ADE502B48B00700BDA725 /* UpliftMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD8ADE432B48B00700BDA725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8ADE2F2B48B00400BDA725 /* UpliftMe */;
+			targetProxy = CD8ADE422B48B00700BDA725 /* PBXContainerItemProxy */;
+		};
+		CD8ADE4D2B48B00700BDA725 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD8ADE2F2B48B00400BDA725 /* UpliftMe */;
+			targetProxy = CD8ADE4C2B48B00700BDA725 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CD8ADE532B48B00700BDA725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD8ADE542B48B00700BDA725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CD8ADE562B48B00700BDA725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UpliftMe/UpliftMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UpliftMe/Preview Content\"";
+				DEVELOPMENT_TEAM = BQ4TCH78DA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpliftMe.UpliftMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD8ADE572B48B00700BDA725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UpliftMe/UpliftMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"UpliftMe/Preview Content\"";
+				DEVELOPMENT_TEAM = BQ4TCH78DA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpliftMe.UpliftMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD8ADE592B48B00700BDA725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ4TCH78DA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpliftMe.UpliftMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpliftMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpliftMe";
+			};
+			name = Debug;
+		};
+		CD8ADE5A2B48B00700BDA725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ4TCH78DA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpliftMe.UpliftMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpliftMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UpliftMe";
+			};
+			name = Release;
+		};
+		CD8ADE5C2B48B00700BDA725 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ4TCH78DA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpliftMe.UpliftMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UpliftMe;
+			};
+			name = Debug;
+		};
+		CD8ADE5D2B48B00700BDA725 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQ4TCH78DA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = UpliftMe.UpliftMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UpliftMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD8ADE2B2B48B00400BDA725 /* Build configuration list for PBXProject "UpliftMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8ADE532B48B00700BDA725 /* Debug */,
+				CD8ADE542B48B00700BDA725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8ADE552B48B00700BDA725 /* Build configuration list for PBXNativeTarget "UpliftMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8ADE562B48B00700BDA725 /* Debug */,
+				CD8ADE572B48B00700BDA725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8ADE582B48B00700BDA725 /* Build configuration list for PBXNativeTarget "UpliftMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8ADE592B48B00700BDA725 /* Debug */,
+				CD8ADE5A2B48B00700BDA725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD8ADE5B2B48B00700BDA725 /* Build configuration list for PBXNativeTarget "UpliftMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD8ADE5C2B48B00700BDA725 /* Debug */,
+				CD8ADE5D2B48B00700BDA725 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD8ADE282B48B00400BDA725 /* Project object */;
+}
