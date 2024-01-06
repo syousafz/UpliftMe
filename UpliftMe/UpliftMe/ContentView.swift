@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var affirmation: String = "Get started by pressing the refresh button!"
     var body: some View {
         ZStack {
             Color(red: 250/255, green: 242/255, blue: 247/255)
@@ -45,7 +46,7 @@ struct ContentView: View {
                     .padding(.trailing, 10)
                 }
                 Spacer()
-                Text("This is my affirmation, yay")
+                Text(affirmation)
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color(red: 63/255, green: 65/255, blue: 78/255))
@@ -53,7 +54,16 @@ struct ContentView: View {
                 Spacer()
                 HStack{
                     Button {
-                        print("Button")
+                        //make a call to our affirmation API
+                        Task {
+                        let (data, _) = try
+                        await
+                        URLSession.shared
+                            .data(from:
+                                    URL(string: "https://www.affirmations.dev")!)
+                            let decodedResponse = try? JSONDecoder().decode(Affirmation.self, from: data)
+                            affirmation = decodedResponse?.value ?? ""
+                    }
                     } label: {
                         //refresh affirmation button
                         Image(systemName:"arrow.clockwise")
@@ -81,6 +91,10 @@ struct ContentView: View {
             }
         }
     }
+}
+
+struct Affirmation: Codable {
+    let value: String
 }
 
 struct ContentView_Previews: PreviewProvider {
