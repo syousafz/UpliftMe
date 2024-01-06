@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3814FA2B4A0F84009AD5F1 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3814F92B4A0F84009AD5F1 /* AddView.swift */; };
 		CD8ADE342B48B00400BDA725 /* UpliftMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE332B48B00400BDA725 /* UpliftMeApp.swift */; };
 		CD8ADE362B48B00400BDA725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE352B48B00400BDA725 /* ContentView.swift */; };
 		CD8ADE382B48B00600BDA725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD8ADE372B48B00600BDA725 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 		CD8ADE462B48B00700BDA725 /* UpliftMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE452B48B00700BDA725 /* UpliftMeTests.swift */; };
 		CD8ADE502B48B00700BDA725 /* UpliftMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE4F2B48B00700BDA725 /* UpliftMeUITests.swift */; };
 		CD8ADE522B48B00700BDA725 /* UpliftMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE512B48B00700BDA725 /* UpliftMeUITestsLaunchTests.swift */; };
+		CDDC761D2B4A078F00926A77 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDC761C2B4A078E00926A77 /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD3814F92B4A0F84009AD5F1 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		CD8ADE302B48B00400BDA725 /* UpliftMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpliftMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8ADE332B48B00400BDA725 /* UpliftMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpliftMeApp.swift; sourceTree = "<group>"; };
 		CD8ADE352B48B00400BDA725 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +48,7 @@
 		CD8ADE4B2B48B00700BDA725 /* UpliftMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpliftMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8ADE4F2B48B00700BDA725 /* UpliftMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpliftMeUITests.swift; sourceTree = "<group>"; };
 		CD8ADE512B48B00700BDA725 /* UpliftMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpliftMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CDDC761C2B4A078E00926A77 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				CD8ADE332B48B00400BDA725 /* UpliftMeApp.swift */,
 				CD8ADE352B48B00400BDA725 /* ContentView.swift */,
+				CD3814F92B4A0F84009AD5F1 /* AddView.swift */,
+				CDDC761C2B4A078E00926A77 /* MenuView.swift */,
 				CD8ADE372B48B00600BDA725 /* Assets.xcassets */,
 				CD8ADE392B48B00600BDA725 /* UpliftMe.entitlements */,
 				CD8ADE3A2B48B00600BDA725 /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD3814FA2B4A0F84009AD5F1 /* AddView.swift in Sources */,
 				CD8ADE362B48B00400BDA725 /* ContentView.swift in Sources */,
+				CDDC761D2B4A078F00926A77 /* MenuView.swift in Sources */,
 				CD8ADE342B48B00400BDA725 /* UpliftMeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
