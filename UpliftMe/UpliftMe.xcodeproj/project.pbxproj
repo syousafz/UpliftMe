@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3447862B4DC20C001158F1 /* Affirmation.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD3447842B4DC20C001158F1 /* Affirmation.xcdatamodeld */; };
+		CD3447882B4DC304001158F1 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3447872B4DC304001158F1 /* PersistenceController.swift */; };
+		CD34478A2B4DC41A001158F1 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3447892B4DC41A001158F1 /* FavoritesView.swift */; };
+		CD34478C2B4DC4B4001158F1 /* Affirmation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34478B2B4DC4B4001158F1 /* Affirmation.swift */; };
+		CD34478E2B4DC4DA001158F1 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD34478D2B4DC4DA001158F1 /* CustomView.swift */; };
 		CD3814FA2B4A0F84009AD5F1 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3814F92B4A0F84009AD5F1 /* AddView.swift */; };
 		CD8ADE342B48B00400BDA725 /* UpliftMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE332B48B00400BDA725 /* UpliftMeApp.swift */; };
 		CD8ADE362B48B00400BDA725 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8ADE352B48B00400BDA725 /* ContentView.swift */; };
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD3447852B4DC20C001158F1 /* Affirmation.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Affirmation.xcdatamodel; sourceTree = "<group>"; };
+		CD3447872B4DC304001158F1 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		CD3447892B4DC41A001158F1 /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		CD34478B2B4DC4B4001158F1 /* Affirmation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Affirmation.swift; sourceTree = "<group>"; };
+		CD34478D2B4DC4DA001158F1 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		CD3814F92B4A0F84009AD5F1 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		CD8ADE302B48B00400BDA725 /* UpliftMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpliftMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD8ADE332B48B00400BDA725 /* UpliftMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpliftMeApp.swift; sourceTree = "<group>"; };
@@ -101,6 +111,11 @@
 			children = (
 				CD8ADE332B48B00400BDA725 /* UpliftMeApp.swift */,
 				CD8ADE352B48B00400BDA725 /* ContentView.swift */,
+				CD3447892B4DC41A001158F1 /* FavoritesView.swift */,
+				CD3447872B4DC304001158F1 /* PersistenceController.swift */,
+				CD3447842B4DC20C001158F1 /* Affirmation.xcdatamodeld */,
+				CD34478B2B4DC4B4001158F1 /* Affirmation.swift */,
+				CD34478D2B4DC4DA001158F1 /* CustomView.swift */,
 				CD3814F92B4A0F84009AD5F1 /* AddView.swift */,
 				CDDC761C2B4A078E00926A77 /* MenuView.swift */,
 				CD8ADE372B48B00600BDA725 /* Assets.xcassets */,
@@ -266,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD3814FA2B4A0F84009AD5F1 /* AddView.swift in Sources */,
+				CD3447862B4DC20C001158F1 /* Affirmation.xcdatamodeld in Sources */,
 				CD8ADE362B48B00400BDA725 /* ContentView.swift in Sources */,
+				CD34478E2B4DC4DA001158F1 /* CustomView.swift in Sources */,
+				CD3447882B4DC304001158F1 /* PersistenceController.swift in Sources */,
+				CD34478C2B4DC4B4001158F1 /* Affirmation.swift in Sources */,
+				CD34478A2B4DC41A001158F1 /* FavoritesView.swift in Sources */,
 				CDDC761D2B4A078F00926A77 /* MenuView.swift in Sources */,
 				CD8ADE342B48B00400BDA725 /* UpliftMeApp.swift in Sources */,
 			);
@@ -625,6 +645,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CD3447842B4DC20C001158F1 /* Affirmation.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CD3447852B4DC20C001158F1 /* Affirmation.xcdatamodel */,
+			);
+			currentVersion = CD3447852B4DC20C001158F1 /* Affirmation.xcdatamodel */;
+			path = Affirmation.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CD8ADE282B48B00400BDA725 /* Project object */;
 }
