@@ -8,9 +8,12 @@ The Positive Affirmation App is a mobile application designed to uplift and insp
 **Features**
 
 Daily Affirmations: Receive a new positive affirmation each day and refresh for more.
+
 Customizable Affirmations: Users can customize and save their favorite affirmations.
+
 User-friendly Interface: Intuitive and visually appealing design for a seamless user experience.
-Screenshots
+
+**Screenshots**
 
 
 **Future Changes:**
