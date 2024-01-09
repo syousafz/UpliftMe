@@ -31,7 +31,7 @@ struct MenuView: View {
                     backButton
                     Spacer()
                     VStack {
-                        Text("Cheerify")
+                        Text("UpliftMe")
                             .font(.largeTitle)
                             .fontWeight(.bold)
                             .foregroundColor(Color(red: 63/255, green: 65/255, blue: 78/255))
