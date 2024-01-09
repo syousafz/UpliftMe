@@ -24,12 +24,16 @@ To run the app locally, follow these steps:
 Clone the Repository:
 Copy code
 git clone git@github.com:syousafz/UpliftMe.git
+
+
 Open in Xcode:
 Open the project in Xcode.
 Ensure you have the necessary dependencies installed.
 Build and Run:
 Build and run the app on a simulator.
-Dependencies
+
+
+**Dependencies**
 
 Swift 5.0+
 Xcode 12.0+
