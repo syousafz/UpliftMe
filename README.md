@@ -15,9 +15,13 @@ User-friendly Interface: Intuitive and visually appealing design for a seamless 
 
 **Screenshots**
 
+<img src="UpliftMeHome.png" alt="Home screen" width="200" height="350"/> <img src="UpliftMeMenuScreen.png" alt="Menu screen" width="200" height="350"/><img src="UpliftMeAdd.png" alt="Menu screen" width="200" height="350"/><img src="UpliftMeFavorite.png" alt="Menu screen" width="200" height="350"/>
+
 
 **Future Changes:**
+
 Reminders: Set reminders to receive affirmations at specific times.
+
 Notifications: Receive affirmations as notifications.
 
 **Getting Started**
@@ -32,7 +36,9 @@ git clone git@github.com:syousafz/UpliftMe.git
 Open in Xcode:
 Open the project in Xcode.
 Ensure you have the necessary dependencies installed.
+
 Build and Run:
+
 Build and run the app on a simulator.
 
 
